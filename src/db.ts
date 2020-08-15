@@ -30,10 +30,8 @@ export default class DB {
       const opts: any = {};
 
       opts.promiseLibrary = global.Promise;
-      opts.autoReconnect = true;
-      opts.reconnectTries = Number.MAX_VALUE;
-      opts.reconnectInterval = 1000;
       opts.useNewUrlParser = true;
+      opts.useUnifiedTopology = true;
 
       const db: any = DB[name];
 

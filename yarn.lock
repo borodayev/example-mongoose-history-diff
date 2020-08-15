@@ -1689,10 +1689,10 @@ mongodb@3.5.10:
   optionalDependencies:
     saslprep "^1.0.0"
 
-mongoose-history-diff@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/mongoose-history-diff/-/mongoose-history-diff-1.0.3.tgz#7ec96082802c2145ce315397c9a320e1bcd02911"
-  integrity sha512-gCTp1x4R8viEjhv4p14qVSUPU0e1VDxrQlE1AVJISlkkeL+Jn3h5VIWTOhwhjMQDEgpW47m84a2pFsTm7a3dlQ==
+mongoose-history-diff@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/mongoose-history-diff/-/mongoose-history-diff-1.0.6.tgz#7ac7f4ff14e3e628bfdab3923091f8241f62fe1c"
+  integrity sha512-UvdqYx8/p/wotZoofiblZ5VK9GeX4BUpwYdnPlXbYt0ziXGiVVx/zk5GP4X6N6uAtehsZeNcXIyEAY7TNf/RjQ==
 
 mongoose-legacy-pluralize@1.0.2:
   version "1.0.2"
