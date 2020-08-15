@@ -32,6 +32,9 @@
     "ts-node": "^8.10.1",
     "typescript": "^3.8.3"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "nodemonConfig": {
     "ignore": [
       "node_modules"
@@ -43,7 +46,7 @@
     "ext": "ts"
   },
   "scripts": {
-    "start": "node",
+    "start": "node ./build/index.js",
     "start-nodemon": "nodemon",
     "build": "yarn tsc",
     "lint": "eslint --ext .ts ./src"
